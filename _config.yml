@@ -6,38 +6,37 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Daeeun Ko
+title: Backend Developer
+email: 7273322@naver.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+#phone: Backend Developer
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+website: https://acisliver.tistory.com/
+website_title: Blog
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+#twitter_username: jekyllrb
+github_username:  acisliver
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+#linkedin_username: jekyll
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -52,13 +51,9 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Java와 객체지향에 빠진 개발자입니다!
+  3회의 산학 협력 과제, K-Hackton 본선 참여 등 다양한 협업 활동을 하며 프로젝트 리딩을 해왔습니다.
+  사용자 입장에서 문제를 정의하고 분할 정복하기 위해 유저 스토리를 작성하는 것을 좋아합니다.
 
 content:
   - title: Projects # Title for the section
@@ -67,49 +62,82 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: MilRoute
+        link: http://milroute.s3-website.us-east-2.amazonaws.com/
+        link_text: MilRoute
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: GitHub Repository
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+            url: https://github.com/TP1-Competition/MilRoute
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          군인들을 위한 최적 경로 서비스
+      - layout: left
+        border: weak
+        title: Face Album
+        link: https://github.com/KKangGoGo
+        link_text: Face Album Organization
+        additional_links:
+          - title: Server
+            icon: fab fa-github
+            url: https://github.com/KKangGoGo/BackEndServer
+          - title: Profile Server
+            icon: fab fa-github
+            url: https://github.com/KKangGoGo/ProfileServer
+        description: |
+          얼굴 인식을 통해 자동으로 지인들에게 사진을 공유해주는 서비스
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+      - layout: left
+        title: 우아한 테크 코스 프리코스
+        sub_title: 구현 과제를 풀고 리뷰하는 프로그램
+        caption: 2022.10.31 ~ 2022.11.23
+        link: https://woowacourse.github.io/
+        additional_links:
+          - title: 로또 과제
+            icon: fab fa-github
+            url: https://github.com/acisliver/java-lotto
+          - title: 야구 과제
+            icon: fab fa-github
+            url: https://github.com/acisliver/java-baseball
+          - title: 다리 과제
+            icon: fab fa-github
+            url: https://github.com/acisliver/java-bridge
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          4주간 간단한 콘솔 게임을 직접 구현합니다. 알고리즘 테스트, 로또 과제, 야구 과제를 구현했습니다.
+          
+          주마다 공통 피드백을 받습니다.
+      - layout: left
+        title: 오픈소스 컨트리뷰션 아카데미
+        sub_title: 오픈소스 기여를 위한 멘토링
+        caption: 2022.07.09 ~ 2022.10.08
+        link: https://www.oss.kr/contribution_academy
+        description: | # this will include new lines to allow paragraphs
+          FOSSLightHub 오픈소스에 기여했습니다.
+          
+          기여를 시작하기 전 git을 통한 커밋 관리, GitHub로 협업하는 방법과 오픈소스에 기여하는 방법에 대해 학습했습니다.
+          
+          FOSSLightHub의 LDAP 인증에 관하여 기여했습니다.
+      - layout: left
+        title: 카카오 현장실습
+        sub_title: 소프트웨어 기획
+        caption: 2022.01.03 ~ 2022.01.28
+        link: https://www.kakaocorp.com/page/
+        description: | # this will include new lines to allow paragraphs
+          카카오 현직자의 멘토링을 받아 서비스를 직접 기획하였습니다.
+          
+          기획 단계에서 아아디어 맵, 퍼소나, 유스케이스 다이어그램, 프로토타이핑 작성했습니다.
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+      - layout: left
+        title: Jeju National Univ.
+        sub_title: BE in Computer Engineering
+        caption: 2017 - 2023
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+          컴퓨터공학 전반에 지식을 학습했습니다.
+          
+          포털서비스개발론: Spring에 대해 학습했습니다.
 
 # Footer
 footer_show_references: true
