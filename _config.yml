@@ -52,7 +52,9 @@ github_username:  acisliver
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   Java와 객체지향에 빠진 개발자입니다!
+  
   3회의 산학 협력 과제, K-Hackton 본선 참여 등 다양한 협업 활동을 하며 프로젝트 리딩을 해왔습니다.
+  
   사용자 입장에서 문제를 정의하고 분할 정복하기 위해 유저 스토리를 작성하는 것을 좋아합니다.
 
 content:
